@@ -1,0 +1,116 @@
+
+.info {
+    background-color: var(--color-black);
+}
+
+.info__block {
+    color: var(--color-white);
+}
+
+.info__block.first {
+    padding: 45px 0 95px;
+}
+
+.info__block.first .item h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    padding: 0 0 19px;
+    font-size: 18px;
+}
+
+.info__block.first .item p {
+    font-size: 12px;
+    line-height: 167.5%;
+    margin: 0 0 60px 0;
+}
+
+.info__block.first .item.ring img {
+    position: relative;
+    z-index: 15;
+}
+
+.info__block.first .item.ring {
+    position: relative;
+    width: 318px;
+    margin-left: auto;
+}
+
+.info__block.first .item.ring::before,
+.info__block.first .item.ring::after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 33%;
+    border: 1px solid var(--color-gray-800);
+    border-radius: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%)
+}
+
+.info__block.first .item.ring::before {
+    width: 295px;
+    height: 295px;
+}
+
+.info__block.first .item.ring::after {
+    width: 275px;
+    height: 275px;
+}
+
+.info__block.second .item:first-child {
+    padding: 0 0 24px 0;
+}
+
+.info__block.second .item:last-child {
+    padding: 0 0 80px 0;
+}
+
+.info__block.second ul:before {
+    content: attr(aria-label);
+    color: var(--color-white);
+    font-size: 12px;
+    line-height: 167.5%;
+}
+
+
+.info__block.second ul li {
+    font-size: 12px;
+    line-height: 167.5%;
+    position: relative;
+    left: 17px;
+    width: 99%;
+}
+
+.info__block.second ul li:nth-child(1) {
+    margin: 16px 0 0 0;
+}
+
+.info__block.second ul li:nth-child(2) {
+    margin: 16px 0;
+}
+
+.info__block.second ul li::before {
+    content: '/';
+    color: var(--color-gold);
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 167.5%;
+    position: absolute;
+    left: -18px;
+    top: -5px;
+    font-family: 'Segoe UI';
+}
+
+.info__block.third h3 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    margin:  0 0 24px 0;
+}
+
+.info__block.third .item:last-child{
+    padding:  0 0 40px 0;
+}

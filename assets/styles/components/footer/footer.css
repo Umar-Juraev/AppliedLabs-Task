@@ -1,0 +1,117 @@
+footer {
+    background-color: var(--color-gray-100);
+    padding: 40px 1rem 1rem;
+    background-image: url(../../../images/A_F-mobile.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-position-x: center;
+}
+
+.form__wrapper {
+    padding: 0 0 18px 0;
+}
+
+
+
+footer h5 {
+    text-transform: uppercase;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    letter-spacing: 0.165em;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 16px;
+}
+
+footer form {
+    position: relative;
+    margin: 0 0 28px 0;
+}
+
+footer form input {
+    border-bottom: 1px solid var(--color-gray-200);
+    width: 100%;
+    padding: 13px 0;
+    font-family: 'Work Sans';
+    font-size: 14px;
+    line-height: 141.8%;
+    color: var(--color-gray-500);
+}
+
+footer form button {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+footer .icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+footer .accordion {
+    overflow: hidden;
+    transition: 0.3s;
+    min-height: 42px;
+    height: 42px;
+}
+
+footer .accordion.is-active {
+    /* overflow: hidden; */
+    min-height: 200px;
+}
+
+footer .accordion h5 {
+    position: relative;
+    margin: 11px 0 0 0;
+    padding: 14px 0;
+}
+
+footer .accordion h5::after,
+footer .accordion h5::before {
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 1px;
+    background-color: var(--color-black);
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+footer .accordion h5::before {
+    transform: rotate(90deg);
+    top: 49%;
+}
+
+footer .accordion h5.is-active::before {
+    transform: rotate(0);
+    top: 50%;
+}
+
+footer .accordion:first-child {
+    margin: 0 0 25px 0;
+}
+
+footer .accordion ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+footer .accordion ul li a {
+    font-size: 12px;
+    line-height: 167.5%;
+    color: var(--color-gray-400);
+}
+
+
+footer .author {
+    text-align: center;
+    color: var(--color-gray-200);
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 167.5%;
+}

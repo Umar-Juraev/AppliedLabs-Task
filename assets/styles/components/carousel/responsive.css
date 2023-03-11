@@ -1,0 +1,46 @@
+
+@media (min-width:768px) {
+    .carousel{
+        overflow: unset;
+    }
+    .carousel__title {
+        font-size: 28px;
+        line-height: 130%;
+        letter-spacing: 0.08em;
+    }
+    ul#move {
+        justify-content: space-between;
+        transition: none;
+    }
+    #back,
+    #forword{
+        display: none;
+    }
+    #slider{
+        width: 100%;
+        overflow: unset;
+        position: initial;
+    }
+    ul#move li{
+        width: 22%;
+    }
+}
+
+@media (min-width:1280px) {
+    .carousel__title{
+        margin-bottom: 42px;
+        margin-top: 80px;
+    }
+    ul#move li div:first-child {
+        height: 410px;
+    }
+    ul#move li div:first-child img{
+        height: 100%;
+    }
+    ul#move {
+        gap: 16px;
+    }
+    ul#move li{
+        width: 25%;
+    }
+}

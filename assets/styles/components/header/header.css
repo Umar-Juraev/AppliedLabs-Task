@@ -1,0 +1,17 @@
+.header__alert {
+    font-family: "Oswald";
+    text-align: center;
+    font-size: 12px;
+    height: 32px;
+    letter-spacing: 0.16em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-gray-100);
+}
+
+.header__nav {
+    justify-content: space-between;
+    padding: 1rem 1rem;
+}
