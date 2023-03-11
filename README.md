@@ -14,3 +14,4 @@ This simple app was created using pure css , html and js (no libraries, no any p
 
 1 Have a small issue in carousel (I didn't find the time for it ,sorry)
 2 two different font families was used on to the same block , so i s took one .
+3 Also i could be devide js file to modules, but Skipped it
